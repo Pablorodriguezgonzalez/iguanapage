@@ -1,0 +1,81 @@
+/* resetear los estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+}
+
+.titulo {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.imagen_iguana {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.texto_imagen {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  align-items: center;
+  gap: 100px;
+}
+
+.texto_imagen img {
+  width: 399px;
+}
+
+.texto_de_la_imagen {
+  color: white;
+  width: 475px;
+}
+
+.iconos {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.caracteristicas {
+  background-color: #1e1a13;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  font-size: 24px;
+}
+
+.titulo_caracteristicas {
+  font-size: 40px;
+}
+
+.galeria {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.imagen_galeria img {
+  width: 316px;
+  height: 202px;
+}
+
+.footer {
+  background-color: #1e1a13;
+  height: 3em;
+  line-height: 3em;
+  color: white;
+  text-align: center;
+}
